@@ -27,7 +27,7 @@ $.fn.otherDropdown = function(options) {
 	// Prepare our text input
 	var $textInput = $('<input type="text" class="otherdropdown" placeholder="' + opts.placeholder + '" />');
 
-	// Allow custom classes on the text input Hello world!
+	// Allow custom classes on the text input Hello World!
 	if (opts.classes) {
 		$textInput.addClass(opts.classes);
 	}
