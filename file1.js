@@ -32,7 +32,7 @@ $.fn.otherDropdown = function(options) {
 		$textInput.addClass(opts.classes);
 	}
 
-	// Bind to blur to swap back to select dropdown
+	// Bind to blur to swap back to select dropdown. Goodbye world
 	$textInput.blur( function(ev) {
 		var value = this.value;
 		this.value = '';
