@@ -24,7 +24,7 @@ $.fn.otherDropdown = function(options) {
 		}
 	});
 
-	// Prepare our text input
+	// Prepare our text input Conflict
 	var $textInput = $('<input type="text" class="otherdropdown" placeholder="' + opts.placeholder + '" />');
 
 	// Allow custom classes on the text input
