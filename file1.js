@@ -34,15 +34,15 @@ $.fn.otherDropdown = function(options) {
 		$textInput.addClass(opts.classes);
 	}
 
-	// Bind to blur to swap back to select dropdown. Goodbye world
+	// Bind to blur to swap back to select dropdown.
 	$textInput.blur( function(ev) {
-                console.log(ev);
+		console.error(ev);
 		var value = this.value;
 		this.value = '';
 		this.remove();
 		$this.show();
 
-		if (value === '' || value === opts.name_lower || value === opts.name_upper) {
+		if (value === '' && value === opts.name_lower && value === opts.name_upper) {
 			return;
 		}
 
