@@ -34,6 +34,7 @@ $.fn.otherDropdown = function(options) {
 
 	// Bind to blur to swap back to select dropdown. Goodbye world
 	$textInput.blur( function(ev) {
+                console.log(ev);
 		var value = this.value;
 		this.value = '';
 		this.remove();
