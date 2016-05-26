@@ -15,6 +15,7 @@ $.fn.otherDropdown = function(options) {
 	opts.placeholder = opts.placeholder || opts.name_upper;
 
 	// Bind to all change events
+	// But why not zoidberg?
 	$this.change( function(ev){
 
 		// Swap in the text area if our 'other' option was chosen
