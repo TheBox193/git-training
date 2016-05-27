@@ -6,6 +6,7 @@
  * @author Jonathan Stassen <jstassen.com>
  * @see https://github.com/TheBox193/jquery.otherdropdown
  */
+//Test commit
 $.fn.otherDropdown = function(options) {
 	var $this = this;
 	// Allow a different name/value to trigger, default to 'other'
