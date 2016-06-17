@@ -4,6 +4,7 @@ Resources:
 * [Git Cheat Sheet](http://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
 * [Simple Guild](http://rogerdudler.github.io/git-guide/)
 * [Interactive LearnGitBranching](http://pcottle.github.io/learnGitBranching/)
+* [GitHub Extension for Chrom](https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn)
 
 Tools: 
 * [SourceTree](https://www.sourcetreeapp.com/) - Git GUI
