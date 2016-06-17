@@ -31,7 +31,7 @@ $.fn.otherDropdown = function(options) {
 	// Check out this new comment, it's pretty cool
 	var $textInput = $('<input type="text" class="otherdropdown" placeholder="' + opts.placeholder + '" />');
 
-	// Allow custom classes on the text input!
+	// Allow custom classes on the text input Hello World! 123123
 	if (opts.classes) {
 		$textInput.addClass(opts.classes);
 	}
@@ -60,4 +60,5 @@ $.fn.otherDropdown = function(options) {
 		// Focus the value
 		$this.val( value );
 	});
+    // Let's add a comment right here
 };
