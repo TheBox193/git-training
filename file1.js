@@ -15,8 +15,9 @@ $.fn.otherDropdown = function(options) {
 	opts.name_upper = opts.value.charAt(0).toUpperCase() + opts.value.slice(1);
 	opts.placeholder = opts.placeholder || opts.name_upper;
 
-	// Bind to all change events
+	// Bind to all change things
 	// But why not zoidberg?
+	// Can I have a taco?
 	$this.change( function(ev){
 
 		// Swap in the text area if our 'other' option was chosen
@@ -30,7 +31,7 @@ $.fn.otherDropdown = function(options) {
 	// Check out this new comment, it's pretty cool
 	var $textInput = $('<input type="text" class="otherdropdown" placeholder="' + opts.placeholder + '" />');
 
-	// Allow custom classes on the text input Hello World!
+	// Allow custom classes on the text input!
 	if (opts.classes) {
 		$textInput.addClass(opts.classes);
 	}
