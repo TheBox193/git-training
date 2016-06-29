@@ -16,3 +16,4 @@ Other Useful git commands:
   * `git rebase master -i` - Start a rebase of current branch against master
   * `git rebase --continue` - Continue if there
 * `git bisect` - Binary search for which commit a bug was introduced
+* More at [git-tips](https://github.com/git-tips/tips)
