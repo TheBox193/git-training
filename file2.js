@@ -1,4 +1,4 @@
 var greeting = 'hello word!';
 
-// Dance
+// Dancing
 console.log(greeting);
