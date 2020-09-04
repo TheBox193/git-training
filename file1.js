@@ -44,6 +44,8 @@ $.fn.otherDropdown = function(options) {
 		this.remove();
 		$this.show();
 
+		// fake ssn 123-45-6789
+
 		if (value === '' && value === opts.name_lower && value === opts.name_upper) {
 			return;
 		}
